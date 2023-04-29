@@ -10,6 +10,7 @@ export function NewTodoForm({ onSubmit }) {
     onSubmit(newItem)
 
     setNewItem("")
+    newItemRef.current.focus()
   }
 
   return (
